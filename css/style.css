@@ -1,8 +1,29 @@
+@font-face {
+    font-family: "Muci";
+    src: url("/Fonts/GreatVibes-Regular.ttf");
+    font-weight: 500;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: "Muci-light";
+    src: url("/Fonts/GreatVibes-Regular.ttf");
+    font-weight: 300;
+    font-size: 28px;
+}
+
+
 h1 {
     color: red;
+    font-family: "Muci";
 }
+
 p {
     color: blue;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Muci-light";
+}
+
+img {
+    width: 500px;
 }
