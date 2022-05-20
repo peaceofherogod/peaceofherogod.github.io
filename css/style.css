@@ -14,13 +14,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html {
+    background-color: lightgoldenrodyellow;
+}
+
 h2 {
 
     font-family: "Roboto", sans-serif;
 }
 
 #bioHeader {
-
     color: brown;
     font-style: italic;
     text-align: justify;
@@ -31,11 +34,9 @@ h2 {
 
 ul {
     color: brown;
-
 }
 
 #skillsHeader {
-
     color: blueviolet;
     text-align: justify;
     font-size: 30px;
@@ -47,6 +48,7 @@ h1 {
     color: red;
     font-family: "Muci";
     text-align: center;
+    margin: 10px;
 }
 
 .content {
@@ -54,7 +56,15 @@ h1 {
     font-size: 30px;
     font-family: "Muci-light";
     text-align: justify;
+}
 
+.bold {
+    font-weight: bold;
+}
+
+.imgDiv {
+    text-align: center;
+    background-color: lightblue;
 }
 
 #lorem {
@@ -62,7 +72,6 @@ h1 {
     font-size: 30px;
     font-family: "Muci-light";
     text-align: justify;
-
 }
 
 #thisisasite {
@@ -70,7 +79,6 @@ h1 {
     font-size: 30px;
     font-family: "Muci-light";
     text-align: justify;
-
 }
 
 p {
@@ -79,5 +87,5 @@ p {
 }
 
 img {
-    width: 300px;
+    width: 200px;
 }
