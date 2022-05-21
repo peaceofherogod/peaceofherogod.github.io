@@ -60,6 +60,8 @@ h1 {
 
 .bold {
     font-weight: bold;
+    padding: 10px;
+    border: solid 1px red;
 }
 
 .imgDiv {
@@ -72,6 +74,7 @@ h1 {
     font-size: 30px;
     font-family: "Muci-light";
     text-align: justify;
+    max-width: 75%;
 }
 
 #thisisasite {
@@ -81,11 +84,21 @@ h1 {
     text-align: justify;
 }
 
+#fixed {
+    position: fixed
+}
+
 p {
     font-family: "Roboto", sans-serif;
     text-align: justify;
 }
 
 img {
-    width: 200px;
+    width: 18%;
+    box-shadow: 10px 10px 10px black;
+    margin: 0.8%;
+}
+
+#img1 {
+    
 }
